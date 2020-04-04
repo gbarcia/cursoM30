@@ -20,11 +20,11 @@ export default class MenuScene extends Phaser.Scene {
 
     let texts: any[] = []
 
-    texts.push(this.add.text(0, 0, 'Choose which Level\nyou want to play', styles).setOrigin(0.5, 0))
+    texts.push(this.add.text(0, 0, '', styles).setOrigin(0.5, 0))
 
     texts.push(
       this.add
-        .text(0, 0, 'Matter Physics', styles)
+        .text(0, 0, 'Entrar', styles)
         .setOrigin(0.5, 0)
         .setInteractive()
         .on('pointerdown', () => {
@@ -34,7 +34,7 @@ export default class MenuScene extends Phaser.Scene {
 
     texts.push(
       this.add
-        .text(0, 0, 'Arcade Physics (Level 1)', styles)
+        .text(0, 0, '', styles)
         .setOrigin(0.5, 0)
         .setInteractive()
         .on('pointerdown', () => {
@@ -44,7 +44,7 @@ export default class MenuScene extends Phaser.Scene {
 
     texts.push(
       this.add
-        .text(0, 0, 'Arcade Physics (Level 2)', styles)
+        .text(0, 0, '', styles)
         .setOrigin(0.5, 0)
         .setInteractive()
         .on('pointerdown', () => {
@@ -55,7 +55,7 @@ export default class MenuScene extends Phaser.Scene {
 
     texts.push(
       this.add
-        .text(0, 0, 'Arcade Physics (Level 3)', styles)
+        .text(0, 0, '', styles)
         .setOrigin(0.5, 0)
         .setInteractive()
         .on('pointerdown', () => {

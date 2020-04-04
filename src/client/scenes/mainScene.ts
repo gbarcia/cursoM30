@@ -50,7 +50,7 @@ export default class MainScene extends Phaser.Scene {
     const socket = this.socket
 
     let levelText = this.add
-      .text(0, 0, `Level ${this.level + 1}`, {
+      .text(0, 0, ``, {
         color: '#ffffff',
         fontSize: 42
       })

@@ -19,7 +19,7 @@ export default class Routes {
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-          <title>Phaser 3: Multiplayer Example</title>
+          <title>Ringelman Game</title>
         </head>
         <body>
           <style>
@@ -41,9 +41,7 @@ export default class Routes {
             }
           </style>
           <h1>Phaser 3: Real-Time Multiplayer Game with Physics</h1>
-          <a href="/play">Play the Game</a>
-          <a href="/physics">Debug the Physics</a>
-          <a href="/stats">View Server Stats</a>          
+          <a href="/play">Jugar</a>        
         </body>`)
     })
 
