@@ -44,7 +44,7 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "helmet": "^3.21.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "phaser": "^3.22.0",
     "pidusage": "^2.0.17",
     "socket.io": "^2.3.0",
