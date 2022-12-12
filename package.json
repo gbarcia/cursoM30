@@ -42,7 +42,7 @@
     "@geckos.io/phaser-on-nodejs": "^1.0.4",
     "axios": "^0.19.2",
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "helmet": "^3.21.2",
     "moment": "^2.24.0",
     "phaser": "^3.22.0",
